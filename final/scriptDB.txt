@@ -1,0 +1,11 @@
+CREATE DATABASE EscuelaDB;
+GO
+
+USE EscuelaDB;
+GO
+
+CREATE TABLE Estudiantes (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(100),
+    Carrera NVARCHAR(100)
+);
